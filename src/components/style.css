@@ -1,0 +1,297 @@
+    /*home*/
+    @media screen and (max-width:400px){
+        .home1,.space{
+            height:200px;
+        }
+        .home1{
+            display: block;
+        }
+      
+    }
+    .home1,.space{
+        height: 300px;
+    }
+    .home1{
+        width:100%;
+    }
+    .home-text{
+        display: block;
+        float:left;
+        width: 40%;
+        margin-left: 100px;
+    }
+    .home-text h1{
+       color: rgb(222, 64, 196);
+       
+    }
+    .home-text p{
+        color:rgb(4, 29, 86);
+        
+     }
+    .home-image{
+        display: block;
+        float:right;
+        width: 40%;
+        background-image: radial-gradient(circle at 50% 50%, rgba(222, 64, 196, 0.8), rgb(6, 6, 78));
+        border-radius: 50%;
+    }
+    .home-image img{
+      width:100%;
+    }
+    .home-image button{
+        border-radius: 50%;
+      }
+    .home1 button{
+        background: rgb(4, 29, 86);
+        color: #fff;
+        background-image: linear-gradient(to right,rgba(222, 64, 196, 0.8), rgb(6, 6, 78));
+        width: 120px;
+        height: 40px;
+
+    }
+    .home1 button:hover{
+        color: #fff;
+        background-image: linear-gradient(to right, rgb(6, 6, 78),rgba(222, 64, 196, 0.8));
+        width: 120px;
+        height: 40px;
+
+    }
+    /*service*/
+    .service1 h1{
+color: rgb(4, 29, 86);
+    }
+    .service1 p{
+        color: rgba(222, 64, 196, 0.8);
+            }
+             .whole-service{
+                margin-left: 100px;
+            }
+            .whole-service h1 p{
+                margin-left: 200px;
+            }
+    .three-div{
+display: flex;
+margin-top: 10px;
+    }
+    .three-div h2{
+        color:rgba(222, 64, 196, 0.8) ;
+    }
+    .three-div p{
+        color:rgb(4, 29, 86);
+    }
+    .three-div li{
+        background-image: radial-gradient(circle at 50% 50%, rgba(222, 64, 196, 0.8), rgb(6, 6, 78));
+        list-style: none;
+        border-radius: 70%;
+        height: 60px;
+    }
+    .s-left{
+        width:30%;
+        display: block;
+        border-width: 10px;
+        border-radius: 8px;
+        border-color: rgba(222, 64, 196, 0.8);
+        margin-right: 8px;
+    }
+    .s-left i{
+        margin-left:90px ;
+        background-color:rgba(222, 64, 196, 0.459) ;
+        color: rgb(4, 29, 86);
+    }
+    .s-center i{
+        margin-left:90px ;
+        background-color:rgba(222, 64, 196, 0.459) ;
+        color: rgb(4, 29, 86);
+    }
+    .s-right i{
+        margin-left:90px ;
+        background-color:rgba(222, 64, 196, 0.459) ;
+        color: rgb(4, 29, 86);
+    }
+    .s-center{
+        width:30%;
+        display: block;
+        margin-right: 8px;
+    }
+    .s-right{
+        width:30%;
+        display: block;
+        margin-right: 8px;
+    }
+    .service1,.space{
+        height: 150px;
+    }
+    /*portfolio*/
+    .portfolio1 space{
+     height: 150px;   
+    }
+    .portfolio1 img{
+        width:220px;
+        height: 100px;
+        border-radius: 10px;
+        margin:5px 0px 5px px;
+    }
+    .portfolio1 .portfolio-img img:hover{
+      
+        border-width: 10px;
+        border-style: groove;
+        border-color: rgba(222, 64, 196, 0.459) ;
+        border-radius: 10px;
+        margin:5px 8px;
+    }
+     .contact-text{
+        margin-left: 100px;
+    }
+    .portfolio1 h1{
+        color: rgb(222, 64, 196);
+        
+     }
+     .portfolio1 p{
+         color:rgb(4, 29, 86);
+      }
+      .three-person{
+        display: flex;
+        margin-left: 60px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      .person1{
+        width: 30%;
+        margin-left: 20px;
+      }
+      .person1 li{
+margin-left: 80px;
+width: 100%;
+list-style: none;
+      }
+      .person1 i{
+        color:rgb(222, 64, 196);
+      }
+      .person1 img{
+        width:80% ;
+        height: 200px;
+      }
+      .portfolio-img{
+        margin-left: 80px;
+      }
+      .person1 span{
+        color:rgb(222, 64, 196);
+    font-weight: 800;}
+    .person1 p{
+        margin-top: -40px;
+    }
+    .portfolio1 p,h1{
+        margin-left: 100px;
+    }
+    /*contact*/
+    .contact1 .space{
+        height: 150px;   
+       
+       }
+       .contact1{
+        display:flex;
+       }
+       .contact-text{
+        display: block;
+        width:40%;
+      float: left;
+      margin-top: 130px;
+       }
+       .contact-text span{
+        margin-left:  60px;
+        color: rgb(222, 64, 196);
+       }
+       .contact-text time{
+        margin-bottom: 10px;
+        color:rgb(4, 29, 86);
+
+       }
+       .contact1 .contact{
+        margin-bottom: 10px;
+       }
+       .contact1 h1,h2{
+      color:rgb(4, 29, 86)
+       }
+       .form {
+        width:40%;
+        float: right;
+    margin-top: 150px;
+}
+.form .input-part input {
+    display: block;
+    margin-bottom: 25px;
+    width: 300px;
+    height: 30px;
+}
+.form textarea{
+    width :300px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.contact1 .button{
+    background: rgb(4, 29, 86);
+    color: #fff;
+    background-image: linear-gradient(to right,rgba(222, 64, 196, 0.8), rgb(6, 6, 78));
+    width: 120px;
+    height: 40px;
+
+}
+.contact1 .button:hover{
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(6, 6, 78),rgba(222, 64, 196, 0.8));
+    width: 120px;
+    height: 40px;}
+    /*about*/
+    .about .space{
+        height:150px;
+    }
+    .about{
+        display: flex;
+    }
+    .about1 h1{
+margin-left: 200px;
+color: #e5049e;
+    }
+    .not-range{
+        margin-left: 100px;
+        float:left;
+        display:block;
+        width:40%;
+        color: #090138;
+    }
+    .download{
+       display: block;
+       margin-left: 30px;
+       float: left;
+    }
+    .about1 .button:hover{
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(6, 6, 78),rgba(222, 64, 196, 0.8));
+    width: 120px;
+    height: 40px;}
+    .about1 .button{
+        background: rgb(4, 29, 86);
+        color: #fff;
+        background-image: linear-gradient(to right,rgba(222, 64, 196, 0.8), rgb(6, 6, 78));
+        width: 120px;
+        height: 40px;
+    
+    }
+    
+    .about .space{
+        height:150px;
+    }
+    .about{
+        display: flex;
+    }
+    .about1 h1{
+margin-left: 200px;
+color: #e5049e;
+    }
+    .not-range{
+        margin-left: 100px;
+        float:left;
+        display:block;
+        width:40%;
+        color: #090138;
+    }
